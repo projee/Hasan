@@ -1,0 +1,10 @@
+% Converting an image to a binary image (Black and White)
+BW = im2bw(I, level)
+BW = im2bw(X, map, level)
+BW = im2bw(RGB, level)
+
+% Rotating an image
+B = imrotate(A,angle)
+B = imrotate(A,angle,method)
+B = imrotate(A,angle,method,bbox)
+gpuarrayB = imrotate(gpuarrayA,___)
